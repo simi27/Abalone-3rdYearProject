@@ -214,6 +214,7 @@ string board::traverseHorizontal() const{
  */
 bool board::validateMove(const string& l,const int& n, const int& fd, const int& md, int& mtype, bool& scoreMove) const{
     if(!cell::validateLocation(l))//confirm existence of location
+        //erromsg
         return false;
     else{        
         cell* cellpointer = cells.at(l);//initialize to leading cell (get the cell)
