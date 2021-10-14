@@ -1,4 +1,4 @@
-# How to Compile/Build c++ project in VS Code (or any terminal)
+# How to Compile/Build the project in VS Code (or any terminal)
 
 - Use the command below to rcompile the code
 
